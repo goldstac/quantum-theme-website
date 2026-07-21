@@ -1,9 +1,10 @@
-import { Code2, Terminal, ChevronRight } from 'lucide-react';
+import { Code2, Terminal, Pen, ChevronRight, Github } from 'lucide-react';
 import { useTilt } from '../hooks/useTilt';
 
 export default function Hero() {
   const vscodeCardRef = useTilt<HTMLDivElement>();
   const zshCardRef = useTilt<HTMLDivElement>();
+  const neovimCardRef = useTilt<HTMLDivElement>();
 
   return (
     <section
@@ -95,6 +96,48 @@ export default function Hero() {
                   Elevate your terminal experience with a sleek, informative
                   prompt that shines with quantum energy.
                 </p>
+              </div>
+            </div>
+
+            <div
+              ref={neovimCardRef}
+              className="group relative bg-gradient-to-br from-purple-500/10 to-pink-500/10 border border-purple-400/30 rounded-2xl p-6 hover:border-purple-400 hover:glow-purple cursor-pointer"
+              style={{
+                transition:
+                  'transform 0.1s ease-out, border-color 0.5s, box-shadow 0.5s',
+              }}
+            >
+              <div className="absolute inset-0 bg-purple-400/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-12 h-12 rounded-lg bg-purple-400/20 flex items-center justify-center">
+                    <Pen className="w-6 h-6 text-purple-400" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-purple-400">
+                      Neovim Theme
+                    </h3>
+                    <p className="text-sm text-purple-400/60">
+                      port by{' '}
+                      <span className="font-semibold text-purple-400">
+                        goldstac
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <p className="text-gray-400 mb-4">
+                  Bring the quantum aesthetic to Neovim with this
+                  community-maintained port.
+                </p>
+                <a
+                  href="https://github.com/goldstac/quantum-nvim"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors"
+                >
+                  <Github className="w-4 h-4" />
+                  <span className="text-sm">View on GitHub</span>
+                </a>
               </div>
             </div>
           </div>

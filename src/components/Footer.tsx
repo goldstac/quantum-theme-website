@@ -68,7 +68,14 @@ export default function Footer() {
                 className="flex items-center gap-3 text-gray-400 hover:text-blue-400 transition-colors duration-300 group"
               >
                 <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                <span>GitHub Repository</span>
+                <span>VSCode Repository</span>
+              </a>
+              <a
+                href="https://github.com/goldstac/quantum-nvim"
+                className="flex items-center gap-3 text-gray-400 hover:text-purple-400 transition-colors duration-300 group"
+              >
+                <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                <span>Neovim Repository</span>
               </a>
               <a
                 href="mailto:quantumpandaprog@gmail.com"
