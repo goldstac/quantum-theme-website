@@ -92,10 +92,19 @@ export default function Hero() {
                     Zsh Theme
                   </h3>
                 </div>
-                <p className="text-gray-400">
+                <p className="text-gray-400 mb-4">
                   Elevate your terminal experience with a sleek, informative
                   prompt that shines with quantum energy.
                 </p>
+                <a
+                  href="https://github.com/calebephrem/quantum-zsh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-lime-400 hover:text-lime-300 transition-colors"
+                >
+                  <Github className="w-4 h-4" />
+                  <span className="text-sm">View on GitHub</span>
+                </a>
               </div>
             </div>
 
