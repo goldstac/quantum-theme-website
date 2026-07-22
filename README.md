@@ -2,7 +2,7 @@
 
 Welcome to the official Quantum Theme website — a sleek, remixable foundation for creators who crave clarity, speed, and visual polish.
 
-![screenshoot](https://raw.githubusercontent.com/calebephrem/quantum-theme-website/refs/heads/main/src/assets/screenshot.png)
+![screenshoot](src/assets/screenshot.png)
 
 ## ⚡ Features at a Glance
 - 🎨 **Modular Design** — Every section is plug-and-play, remix-friendly, and visually consistent.
