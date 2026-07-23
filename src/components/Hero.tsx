@@ -67,10 +67,19 @@ export default function Hero() {
                     VSCode Theme
                   </h3>
                 </div>
-                <p className="text-gray-400">
+                <p className="text-gray-400 mb-4">
                   Transform your editor with quantum-inspired syntax
                   highlighting and a perfectly balanced color palette.
                 </p>
+                <a
+                  href="https://github.com/calebephrem/quantum-vscode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  <Github className="w-4 h-4" />
+                  <span className="text-sm">View on GitHub</span>
+                </a>
               </div>
             </div>
 
@@ -136,7 +145,7 @@ export default function Hero() {
                 </div>
                 <p className="text-gray-400 mb-4">
                   Bring the quantum aesthetic to Neovim with this
-                  community-maintained port.
+                  port.
                 </p>
                 <a
                   href="https://github.com/goldstac/quantum-nvim"

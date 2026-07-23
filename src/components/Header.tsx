@@ -1,4 +1,4 @@
-import { Menu, X } from 'lucide-react';
+import { Github, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import logo from '../assets/quantum.png';
 
@@ -50,6 +50,15 @@ export default function Header() {
               {link.label}
             </button>
           ))}
+          <a
+            href="https://github.com/calebephrem/quantum-vscode"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-sm font-medium text-gray-300 hover:text-blue-400 transition-all duration-300 hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)]"
+          >
+            <Github className="w-4 h-4" />
+            <span>VS Code Repo</span>
+          </a>
         </nav>
 
         <button
@@ -78,6 +87,15 @@ export default function Header() {
                 {link.label}
               </button>
             ))}
+            <a
+              href="https://github.com/calebephrem/quantum-vscode"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-base font-medium text-gray-300 hover:text-blue-400 transition-all duration-300 hover:translate-x-2 transform"
+            >
+              <Github className="w-4 h-4" />
+              <span>VS Code Repo</span>
+            </a>
           </nav>
         </div>
       )}
