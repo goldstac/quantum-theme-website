@@ -2,7 +2,7 @@
 
 Welcome to the official Quantum Theme website — a sleek, remixable foundation for creators who crave clarity, speed, and visual polish.
 
-![screenshoot](src/assets/screenshot.png)
+![screenshoot](src/assets/screenshot_img.png)
 
 ## ⚡ Features at a Glance
 - 🎨 **Modular Design** — Every section is plug-and-play, remix-friendly, and visually consistent.
